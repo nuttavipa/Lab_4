@@ -1,0 +1,58 @@
+.container {
+	max-width: 1000px;
+  }
+  
+  /*
+   * Custom translucent site header
+   */
+  
+   .site-header {
+	background-color: rgba(0, 0, 0, .85);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+	color: #171717;
+	transition: color .15s ease-in-out;
+  }
+  .site-header a:hover {
+	color: #fff;
+	text-decoration: none;}
+    body{
+        background-color: #2B2B2B;
+
+    }
+    .card-1{
+        width: 60%;
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color:#F8F0DF;
+      padding: 20px;
+      border-radius: 10px;
+      box-sizing: border-box;
+      box-shadow: 0 20px 50px #7E7474}
+
+      
+    
+    
+  
+  h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px 0 20px 0;
+    padding: 0;
+    letter-spacing: 2px;
+    text-shadow:  0 1px 8px  #FFC069;
+    font-family: 'Balsamiq Sans', cursive
+  }
+  p{
+      text-align: center;
+  }
+  h6{
+      text-align: center;
+      font-family: 'Kalam', cursive;
+    }
+    a{
+text-align: right;    }
